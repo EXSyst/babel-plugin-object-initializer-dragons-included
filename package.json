@@ -1,0 +1,35 @@
+{
+  "name": "babel-plugin-object-initializer-dragons-included",
+  "version": "0.1.0",
+  "description": "Adds a syntax extension to construct objects and immeditely assign properties to them.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EXSyst/babel-plugin-object-initializer-dragons-included"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "syntax"
+  ],
+  "author": "Nicolas \"Exter-N\" L. <exter-n@exter-n.fr>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "bugs": {
+    "url": "https://github.com/EXSyst/babel-plugin-object-initializer-dragons-included/issues"
+  },
+  "homepage": "https://github.com/EXSyst/babel-plugin-object-initializer-dragons-included",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "./src/index"
+    ]
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-runtime": "^6.3.19"
+  }
+}
